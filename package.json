@@ -2,7 +2,7 @@
   "name": "keka---automation",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "long.js",
   "scripts": {
     "start": "node long.js",
     "build": "webpack",
