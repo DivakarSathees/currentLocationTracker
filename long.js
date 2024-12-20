@@ -26,4 +26,4 @@ const htmlContent = `
       res.writeHead(200, { "Content-Type": "text/html" });
       res.end(htmlContent);
     });
-    server.listen(8080, "127.0.0.1", () => console.log("Server running ..."));
+    server.listen(port, "127.0.0.1", () => console.log("Server running ..."));
