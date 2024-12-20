@@ -20,6 +20,7 @@ const htmlContent = `
         </body>
       </html>
     `;
+    const port = process.env.PORT || 8080; // Use the PORT environment variable
   
     // Start a local HTTP server to host the HTML content
     const server = http.createServer((req, res) => {
